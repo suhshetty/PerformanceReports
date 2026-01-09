@@ -2,37 +2,13 @@
   {
     "scenario": "Scenario1 - API Load Test",
     "version": "v1.0.0",
-    "date": "2025-12-15",
+    "date": "2026-01-09",
     "reportPath": "reports/v1.0.0/scenario1.html",
     "status": "passed",
     "avgResponse": 245,
     "totalRequests": 10000,
     "errorRate": 0.05,
     "p95": "450ms",
-    "notes": "Baseline performance test for API endpoints"
-  },
-  {
-    "scenario": "Scenario2 - UI Load Test",
-    "version": "v1.0.0",
-    "date": "2025-12-15",
-    "reportPath": "reports/v1.0.0/scenario2.html",
-    "status": "passed",
-    "avgResponse": 580,
-    "totalRequests": 5000,
-    "errorRate": 0.12,
-    "p95": "890ms",
-    "notes": "Frontend performance testing with 100 concurrent users"
-  },
-  {
-    "scenario": "Scenario1 - API Load Test",
-    "version": "v1.1.0",
-    "date": "2026-01-09",
-    "reportPath": "reports/v1.1.0/scenario1.html",
-    "status": "passed",
-    "avgResponse": 198,
-    "totalRequests": 15000,
-    "errorRate": 0.03,
-    "p95": "380ms",
-    "notes": "Improved performance after optimization"
+    "notes": "K6 performance test for API endpoints"
   }
 ]
