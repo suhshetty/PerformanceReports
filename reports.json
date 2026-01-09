@@ -5,10 +5,10 @@
     "date": "2026-01-09",
     "reportPath": "reports/v1.0.0/scenario1.html",
     "status": "passed",
-    "avgResponse": 245,
-    "totalRequests": 10000,
-    "errorRate": 0.05,
-    "p95": "450ms",
-    "notes": "K6 performance test for API endpoints"
+    "avgResponse": 487,
+    "totalRequests": 62100,
+    "errorRate": 0,
+    "p95": "1000ms",
+    "notes": "K6 performance test - 62.1k requests, 0% error rate, avg 487ms response time"
   }
 ]
